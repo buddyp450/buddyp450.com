@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    background-color: #FDF6EE;
 }
 
 span {
@@ -9,11 +10,15 @@ span {
 }
 
 .fullscreen {
-    width: 100%;
+    width: 100%;#FDFCFB
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
+}
+
+#social {
+    float: right;
 }
 
 .flex-col {
@@ -32,6 +37,7 @@ span {
     border-radius: 5px;
     padding: 5px;
     margin-top: 5px;
+    width: 100%;
 }
 
 .logos {
@@ -42,20 +48,30 @@ span {
 .logos > * {
     height: 100%;
     margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.contact {
+    float: left;
 }
 
 .logos > * > img {
     height: 50px;
 }
 
-.fullName {
-    font-size: 24px;
+.container {
     width: 100%;
+    padding: 0px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.fullName {
+    font-size: 38px;
 }
 
 .phone {
     font-size: 18px;
-    width: 100%;
 }
 
 .battletag {
@@ -75,12 +91,12 @@ ul.no-bullets {
 }
 
 #abilities {
-    width: 40%;
+    width: 50%;
 }
 
 #abilities ul > li .ability-title {
     display: inline-block;
-    width: 70%;
+    width: 60%;
 }
 
 #abilities ul > li .ability-score {
@@ -93,5 +109,5 @@ ul.no-bullets {
 }
 
 #abilities ul > li .ability-score .glyphicon.filled {
-    color: #4617FD;
+    color: #FD635F;
 }
