@@ -67,3 +67,31 @@ span {
     color: rgba(255, 255, 255, 0.7);
     font-size: 15px;
 }
+
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#abilities {
+    width: 40%;
+}
+
+#abilities ul > li .ability-title {
+    display: inline-block;
+    width: 70%;
+}
+
+#abilities ul > li .ability-score {
+    float: right;
+}
+
+#abilities ul > li .ability-score .glyphicon {
+    color: #DFE0E0;
+    font-size: 14px;
+}
+
+#abilities ul > li .ability-score .glyphicon.filled {
+    color: #4617FD;
+}
