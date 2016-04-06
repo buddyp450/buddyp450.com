@@ -1,0 +1,11 @@
+{
+  "name": "buddyp450.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Charles Patton Jr <buddyp450@gmail.com> (http://buddyp450.com)",
+  "license": "UNLICENSED"
+}
